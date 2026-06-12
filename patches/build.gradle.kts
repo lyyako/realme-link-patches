@@ -1,11 +1,11 @@
-group = "app.template"
+group = "app.morphe.patches.realmelink"
 
 patches {
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Realme Link Patches"
+        description = "Patches for Realme Link"
+        source = "git@github.com:lyyako/realme-link-patches.git"
+        author = "lyyako"
         contact = "na"
         website = "na"
         license = "GPLv3"
@@ -18,8 +18,6 @@ kotlin {
     }
 }
 
-// Separate configuration so gson is available at runtime for the
-// generatePatchesList task but never bundled into the APK.
 val patchListGeneratorClasspath: Configuration by configurations.creating
 
 dependencies {
@@ -37,7 +35,6 @@ tasks {
         mainClass.set("util.PatchListGeneratorKt")
     }
 
-    // Used by gradle-semantic-release-plugin.
     publish {
         dependsOn("generatePatchesList")
     }
