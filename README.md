@@ -9,6 +9,16 @@ A Morphe patch source for Realme Link. Fixes the app's habit of throwing session
 ## Patches
 
 <!-- PATCHES_START -->
+> **[v1.0.0](https://github.com/lyyako/realme-link-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+<details open>
+<summary>📦 Realme Link&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass Session Expiry](#bypass-session-expiry) | Kills session expiry dialogs |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
